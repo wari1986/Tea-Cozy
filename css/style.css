@@ -1,50 +1,73 @@
 body {
+  display: block;
   font-family: helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9
+  opacity: 0.9;
   text-align: center;
   width: 100%;
 }
 
-header {
+.headersection {
   display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
   height: 69px;
+  background-color: black;
   border-bottom: 1px solid seashell;
   position:fixed;
+  align-items: center;
 }
 
-.logo {
-  height: 50px;
-  padding-left: 10px;
-  flex-direction: row;
-  justify-content: flex-start;
-}
+nav {
+  display: block;
+  text-align: right;
+  flex-grow: 1;
+  }
 
-.navbar {
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
-.navbar span {
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
   text-decoration: underline;
 }
 
 .mainsection {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: block;
+  width: 1200px;
+  margin: auto;
 }
 
-.ourmission {
+#ourmission {
   background-image: url(/home/huari/Documents/projects/teacozy/css/resources/images/img-mission-background.jpg);
   height: 700px;
-  width: 1200px;
-  justify-content: center;
-  text-align: center;
-  padding-left:
+  padding-top: 70px;
 }
 
-.ourmission h2 h4 {
-  background-color: black;
+.flexcontainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flexcontainer .content {
+  display: block;
+  
+  width: 100%;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h4 {
+  display: block;
+  font-weight: bold;
+}
