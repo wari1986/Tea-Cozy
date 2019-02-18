@@ -1,0 +1,50 @@
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9
+  text-align: center;
+  width: 100%;
+}
+
+header {
+  display:flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position:fixed;
+}
+
+.logo {
+  height: 50px;
+  padding-left: 10px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.navbar {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.navbar span {
+  text-decoration: underline;
+}
+
+.mainsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ourmission {
+  background-image: url(/home/huari/Documents/projects/teacozy/css/resources/images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  text-align: center;
+  padding-left:
+}
+
+.ourmission h2 h4 {
+  background-color: black;
