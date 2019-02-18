@@ -11,15 +11,17 @@ body {
 
 a:link{color:inherit;}
 
-.headersection {
+#headersection {
   display:flex;
   justify-content: center;
   flex-wrap: wrap;
+  z-index: 1;
   width: 100%;
   height: 69px;
   background-color: black;
   border-bottom: 1px solid seashell;
-  position:fixed;
+  position: fixed;
+  align-items: center;
 }
 
 img .headersection {
@@ -59,15 +61,15 @@ nav span {
 .ourmissioncontent {
   display: block;
   width: 100%;
+  align-self:center;
+  background-color: black;
 }
 
 h2 {
-  display: block;
   font-weight: bold;
 }
 
 h4 {
-  display: block;
   font-weight: bold;
 }
 
@@ -112,4 +114,14 @@ padding-top: 70px;
   background-color: black;
   margin: 0px 20px;
   opacity: 1;
+}
+
+.footer {
+  height: 200px;
+  font-weight: bold;
+}
+
+.copyrigth {
+  text-align: left;
+  padding-left: 20px;
 }
