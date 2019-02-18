@@ -67,3 +67,21 @@ h4 {
 }
 
 /* Tea of the month section */
+
+#teaofthemonth {
+display: block;
+width: 1000px;
+height: 700px;
+margin: auto;
+padding-top: 70px;
+}
+
+.item {
+  display: block;
+  margin: 10px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+}
