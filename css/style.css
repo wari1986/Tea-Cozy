@@ -9,6 +9,8 @@ body {
   width: 100%;
 }
 
+/* Header Section */
+
 a:link{color:inherit;}
 
 #headersection {
@@ -36,6 +38,8 @@ nav span {
   padding: 20px 10px;
   text-decoration: underline;
 }
+
+/* Main Section */
 
 .mainsection {
   display: block;
