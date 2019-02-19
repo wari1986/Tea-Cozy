@@ -95,6 +95,8 @@ padding-top: 70px;
   margin: 5px;
 }
 
+/* Locations Section */
+
 #locations {
   display: block;
   height: 500px;
@@ -117,10 +119,14 @@ padding-top: 70px;
   opacity: 1;
 }
 
+/* Footer Section */
+
 .footer {
   height: 200px;
   font-weight: bold;
 }
+
+/* Copyrigth Section */
 
 .copyrigth {
   text-align: left;
